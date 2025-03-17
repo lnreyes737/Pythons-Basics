@@ -1,0 +1,25 @@
+age=input("How old will you be at the end of this year? ")
+age=int(age)
+idx= (age-11)%12
+animals = ["Rat","Ox","Tiger","Rabbit","Dragon","Snake","Horse","Goat","Monkey","Rooster","Dog","Pig"]
+print("You are a",animals[idx])
+noises = ["rat noise","ox noise","grrrrrr","rabbit noise", "dragon noise", "SSSSSSSSSS","neigh","BAAAAAA","ooh-ah-ah","cock-a-doodle-doo","woof","oink" ]
+# print("The",animals[idx],"says:",(noises[idx]+" ")*age)
+if age> 100:
+    print("LIAR-LIAR-LIAR-LIAR-LIAR")
+    print("There is no way that you are that old!")
+answer=input("Would you like to learn more about Chinese New Year? ")
+if answer == 'Yes':
+    print("Thats great to hear!")
+    print("More information about Lunar New Year can be found at: ")
+    print("https://www.britannica.com/topic/Lunar-New-Year")
+else:
+    print("Are you sure? It is really intresting")
+answer2=input("Yes or No? ")
+if answer2== 'Yes':
+        print("Thats great to hear!")
+        print("More information about Lunar New Year can be found at: ")
+        print("https://www.britannica.com/topic/Lunar-New-Year")
+else:
+     print("Fine!")
+     print("You are missing out on some good information!")

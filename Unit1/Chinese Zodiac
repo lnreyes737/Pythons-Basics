@@ -1,0 +1,7 @@
+year=input("What year were you born in?"+ " ")
+year=int(year)
+idx=(year-4)%12
+animals = ["Rat","Ox","Tiger","Rabbit","Dragon","Snake","Horse","Goat","Monkey","Rooster","Dog","Pig"]
+print("Since you were born in", year, ". You are a",animals[idx])
+traits=["intelligent and charming", "patient and dependable", "confident and courageous", "skillful and elegant", "powerful and noble", "intuitive and diligent","energetic and hihg-spirited"," selfless, and calm", "intellignet and adaptable", "frank and loyal", "loyal and clever", "generous and honest"]
+print ("Since you are a", animals[idx], "that means that accoding to the chinese zodiac you are", traits[idx])
